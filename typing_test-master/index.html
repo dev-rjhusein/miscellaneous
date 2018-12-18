@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Simple typing test timer">
+		<title> Rami's Timed Typing Test</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script>	document.addEventListener("DOMContentLoaded", function()
+			{	
+				let newScript = document.createElement('script');
+				newScript.setAttribute('src', "script.js");
+				document.head.appendChild(newScript);
+			})
+		</script>
+	</head>
+
+	<body>
+		
+			<header class="header"> 
+				<h1 id="title">
+					Test Your Typing Speed
+				</h1>
+			</header>
+
+
+			<main class="main">
+
+				<article class="intro">
+					<p>
+						Welcome to the ELI5 typing test. The goal of this test is to duplicate the text provided, EXACTLY, in the field below.
+						The counter will start as soon as you begin typing, and stops when you complete the entire text. Good Luck!!
+					</p>
+				</article>
+
+				<section class="test-space">
+					<div id="origin-text">
+						<p id="paragraph"></p>
+					</div>
+
+					<textarea autofocus id="test-area" name="textarea" rows="6" placeholder="The clock starts when you being typing..." spellcheck="false"></textarea>
+
+					<div class="meta">
+						<section id="clock">
+							<div id="timer">00:00:00</div>
+						</section>
+
+						<button id="resetButton">Reset</button>
+					</div>
+
+				</section>
+			</main>
+
+
+	</body>
+
+</html>

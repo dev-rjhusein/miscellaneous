@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title> Color Game</title>
+        <meta charset="utf-8" name="description" content="Rami's RGB color guessing game.">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+    <body>
+        <div style="padding: 10px;">
+            <header>
+                <h1>
+                    <span id="r">R</span>
+                    <span id="g">G</span>
+                    <span id="b">B</span>
+                    ( Color Guessing Game)
+                </h1>
+                <p id="description">Welcome to the color guessing game! <br>RGB (Red, Green, Blue) values are<br>
+                    valued anywhere between 0 and 255. The higher the corresponding number <br>
+                    the more of that color there is! Can you guess the right color?<br>
+                    Good Luck!</p>
+                    
+                <div class="help">
+                    <img alt="color-wheel" id="hint-image" src="hint-image.png"/>
+                </div>
+            </header>
+
+            <section id="optionBar">
+                <button id="newGame">New Colors</button>
+                <span id="gameMsg"></span>
+                <button class="levels" id="easy">Easy</button>
+                <button class="levels" id="hard">Hard</button>
+                <button class="levels" id="impossible">Impossible</button>
+            </section>
+
+            <main>
+                <section id="goalColor"></section>
+
+                <article id="squareGrid">
+                </article>
+            </main>
+            
+
+            <footer></footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

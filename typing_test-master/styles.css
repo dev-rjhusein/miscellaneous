@@ -1,0 +1,73 @@
+ #test-area {
+    display: grid;
+    justify-items: center;
+    width: 50vw;
+    height: auto;
+    border-style: solid;
+    border-spacing: 5px;
+    border-width: 1vw;
+    border-color: rgb(150,150,150);
+    border-radius: 15px;
+    outline: none;
+}
+body{
+    display: grid;
+}
+
+.header{
+    display: grid;
+    background-color: rgb(13, 75, 80);
+}
+#title{
+    display: grid;
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(13, 75, 80);
+    color: rgb(210, 245, 243);
+}
+.intro{
+    display: block;
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(13, 180, 192);
+    color: rgb(5, 52, 73);
+}
+.main{
+    display: grid;
+    justify-items: center;
+}
+.intro p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+}
+.meta{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#timer{
+    padding: 3px;
+    margin: 3px;
+    font-size: 3vw;
+}
+#resetButton{
+    padding: 3% 10%;
+    margin: 3%;
+    font-size: 2vw;
+    font-family: fantasy;
+}
+#origin-text p{
+    display: grid;
+    font-size: 1.5vw;
+    width: 50vw;
+    height: auto;
+    justify-items: center;
+    padding: .75vw;
+    background-color: rgb(184, 191, 199);
+}
+.test-space{
+    display:grid;
+    justify-items: center;
+}
